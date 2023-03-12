@@ -12,8 +12,12 @@ CTFd/uploads/**/*
 .gitignore
 .prettierignore
 .travis.yml
+.flaskenv
 **/node_modules
 **/*.pyc
 **/__pycache__
 .venv*
 venv*
+Dockerfile
+docker-compose.yml
+Vagrantfile
