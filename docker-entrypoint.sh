@@ -23,6 +23,7 @@ python ping.py
 
 # Initialize database
 python manage.py db upgrade
+nohup python init_apikey.py > init_apikey.out 2>&1 </dev/null &
 
 # Start CTFd
 echo "Starting CTFd"
